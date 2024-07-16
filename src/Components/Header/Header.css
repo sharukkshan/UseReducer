@@ -1,0 +1,30 @@
+.header{
+    height: 9vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:#645CFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.cart-icon{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.fa-sharp{
+    font-size: 2.5rem;
+}
+.header p{
+    position: absolute;
+    top: -15%;
+    left: 90%;
+    width: 22px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+}
